@@ -1,7 +1,7 @@
 Summary: Tifinagh TTF font(s)
 Name: fonts-ttf-tifinagh
 Version: 1.0
-Release: %mkrel 5
+Release: %mkrel 6
 License: Free use and distribution
 Group: System/Fonts/True type
 Source0: http://pages.infinit.net/hapax/polices/hapaxber.ttf.bz2
@@ -10,8 +10,6 @@ URL: http://cooptel.qc.ca/%7Epandries/propo_tifinagh.pdf
 BuildArch:	noarch
 BuildRoot:	%_tmppath/%name-%version-%release-root
 BuildRequires:	freetype-tools
-Requires(post): fontconfig
-Requires(postun): fontconfig
 
 %description
 This package contains fonts for the Tifinagh script,
@@ -51,13 +49,6 @@ done
 
 %post
 touch %{_datadir}/fonts/TTF
-[ -x %_bindir/fc-cache ] && %{_bindir}/fc-cache 
-
-%postun
-# 0 means a real uninstall
-if [ "$1" = "0" ]; then
-  [ -x %_bindir/fc-cache ] && %{_bindir}/fc-cache 
-fi
 
 %clean
 rm -fr %buildroot
