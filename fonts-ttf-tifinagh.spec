@@ -1,7 +1,7 @@
 Summary: Tifinagh TTF font(s)
 Name: fonts-ttf-tifinagh
 Version: 1.0
-Release: %mkrel 9
+Release: %mkrel 10
 License: Free use and distribution
 Group: System/Fonts/True type
 Source0: http://pages.infinit.net/hapax/polices/hapaxber.ttf.bz2
