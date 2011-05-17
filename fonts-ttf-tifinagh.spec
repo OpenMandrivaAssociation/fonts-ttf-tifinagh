@@ -8,6 +8,7 @@ Source0: http://pages.infinit.net/hapax/polices/hapaxber.ttf.bz2
 Source1: http://pages.infinit.net/hapax/polices/inventaire-des-oeils.pdf.bz2
 URL: http://cooptel.qc.ca/%7Epandries/propo_tifinagh.pdf
 BuildArch:	noarch
+BuildRequires: fontconfig
 BuildRoot:	%_tmppath/%name-%version-%release-root
 BuildRequires:	freetype-tools
 
