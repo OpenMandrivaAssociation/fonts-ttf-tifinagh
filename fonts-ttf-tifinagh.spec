@@ -1,7 +1,7 @@
 Summary:	Tifinagh TTF font(s)
 Name:		fonts-ttf-tifinagh
 Version:	1.0
-Release:	39
+Release:	40
 License:	Free use and distribution
 Group:		System/Fonts/True type
 Url:		http://hapax.qc.ca/propo_tifinagh.pdf
