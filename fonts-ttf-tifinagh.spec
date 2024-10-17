@@ -4,7 +4,7 @@ Version:	1.0
 Release:	41
 License:	Free use and distribution
 Group:		System/Fonts/True type
-Url:		http://hapax.qc.ca/propo_tifinagh.pdf
+Url:		https://hapax.qc.ca/propo_tifinagh.pdf
 Source0:	http://pages.infinit.net/hapax/polices/hapaxber.ttf.bz2
 Source1:	http://pages.infinit.net/hapax/polices/inventaire-des-oeils.pdf.bz2
 BuildArch:	noarch
